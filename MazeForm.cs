@@ -48,10 +48,10 @@ namespace MazeSolution
                 {
                     try
                     {
-                        string x0 = textBox3.Text;
-                        string y0 = textBox4.Text;
-                        string x1 = textBox6.Text;
-                        string y1 = textBox5.Text;
+                        string x0 = textBox4.Text;
+                        string y0 = textBox3.Text;
+                        string x1 = textBox5.Text;
+                        string y1 = textBox6.Text;
                         
                         IFileReading ifl = new FileReading();
                         int[,] matrx = ifl.CreateMatrixFromFile(tr);
